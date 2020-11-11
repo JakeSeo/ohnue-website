@@ -1,0 +1,7 @@
+$mainBlue: rgb(64, 67, 142);
+$mainYellow: rgb(64, 67, 142);
+body {
+  a {
+    color: $mainBlue;
+  }
+}
