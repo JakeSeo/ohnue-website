@@ -1,0 +1,33 @@
+.header {
+  padding: 0.8rem 40% 0.8rem 40%;
+  background: linear-gradient(to right, $mainBlue 50%, $mainYellow 50%) bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 0.5rem;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__sns-logos {
+  align-self: flex-end;
+}
+
+.header__logo {
+  text-align: center;
+  padding-bottom: 0.8rem;
+  &_img {
+    width: 15rem;
+  }
+
+  &_text {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+}
+
+.header__nav {
+}

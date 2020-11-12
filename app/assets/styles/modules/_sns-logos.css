@@ -1,6 +1,9 @@
 .sns-logos {
+  display: flex;
 }
 
 .sns-logos__logo {
+  padding: 0.2rem;
   width: 24px;
+  height: 24px;
 }

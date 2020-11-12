@@ -1,7 +1,5 @@
-$mainBlue: rgb(64, 67, 142);
-$mainYellow: rgb(64, 67, 142);
-body {
-  a {
-    color: $mainBlue;
-  }
-}
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_header";
+@import "modules/_sns-logos";
