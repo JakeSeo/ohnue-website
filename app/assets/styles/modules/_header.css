@@ -1,11 +1,14 @@
 .header {
-  padding: 0.8rem 40% 0.8rem 40%;
+  padding: 0.8rem 0 0.8rem 0;
   background: linear-gradient(to right, $mainBlue 50%, $mainYellow 50%) bottom;
   background-repeat: no-repeat;
   background-size: 100% 0.5rem;
 }
 
 .header__wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -6,4 +6,8 @@
   padding: 0.2rem;
   width: 24px;
   height: 24px;
+
+  &_facebook:hover {
+    fill: blue;
+  }
 }
