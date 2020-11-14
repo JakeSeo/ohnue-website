@@ -8,22 +8,39 @@
 .header__wrapper {
   width: 400px;
   margin: 0 auto;
-  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.header__sns-logos {
+.header__sns_logos {
   align-self: flex-end;
 }
 
 .header__logo {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding-bottom: 0.8rem;
+
+  &_img_container {
+    position: relative;
+  }
+
   &_img {
-    width: 15rem;
+    width: 240px;
+  }
+
+  &_strip {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1rem;
+    width: 100vw;
+    background: linear-gradient(to right, $mainBlue 50%, $mainYellow 50%);
   }
 
   &_text {
@@ -33,4 +50,15 @@
 }
 
 .header__nav {
+  width: 100%;
+  display: flex;
+  background-color: bisque;
+}
+
+.header__nav_element {
+  display: table;
+  width: 100px;
+  text-align: center;
+  height: 2rem;
+  vertical-align: middle;
 }

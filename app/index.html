@@ -7,30 +7,29 @@
   <body>
     <header class="header">
       <div class="header__wrapper">
-        <div class="header__sns-logos">
+        <div class="header__sns_logos">
           <div class="sns-logos">
             <img class="sns-logos__logo sns-logos__logo_facebook" src="./assets/icons/facebook.svg">
             <img class="sns-logos__logo" src="./assets/icons/instagram.svg">
           </div>
         </div>
         <div class="header__logo">
-          <img class="header__logo_img" src="./assets/images/logo.png"></img>
+          <div class="header__logo_img_container">
+            <div class="header__logo_strip"></div>
+            <img class="header__logo_img" src="./assets/images/logo.png"></img>
+          </div>
           <h2 class="header__logo_text">오누이</h2>
         </div>
-        <div class="header__nav">
-          <nav>
-            <ul>
-              <li><a>메인</a></li>
-              <li><a>소개</a></li>
-              <li><a>메뉴</a></li>
-              <li><a>예약/배달</a></li>
-            </ul>
-          </nav>
-        </div>
+        <nav class="header__nav">
+            <a class="header__nav_element">메인</a>
+            <a class="header__nav_element">소개</a>
+            <a class="header__nav_element">메뉴</a>
+            <a class="header__nav_element">예약/배달</a>
+        </nav>
       </div>
     </header>
-    <div>
-      <div>
+    <div class="main-body">
+      <!-- <div>
         <img src="./assets/images/img_about2.jpg"></img>
         <img src="./assets/images/img_menu.jpg"></img>
       </div>
@@ -40,7 +39,7 @@
       <div>
         <img src="./assets/images/img_family.jpg"></img>
         <img src="./assets/images/img_about.jpg"></img>
-      </div>
+      </div> -->
     </div>
     <footer class="footer">
       <h4 class="footer__name">오누이</h4>
