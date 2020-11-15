@@ -7,22 +7,45 @@
   background: linear-gradient(to right, $mainBlue 50%, $mainYellow 50%) top;
   background-repeat: no-repeat;
   background-size: 100% 0.5rem;
+
+  &__name {
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2.5rem;
+    }
+  }
 }
 
 .footer__name {
-  font-size: 2rem;
-  letter-spacing: 1rem;
-  padding-top: 0.8rem;
 }
 
 .footer__address,
 .footer__contact {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+
+  @mixin atSmall {
+    font-size: 1rem;
+  }
+
+  @mixin atMedium {
+    font-size: 1.2rem;
+  }
 }
 
 .footer__contact {
 }
 
 .footer__copyright {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  @mixin atSmall {
+    font-size: 1rem;
+  }
 }
