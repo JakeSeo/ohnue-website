@@ -1,12 +1,9 @@
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding: 0.5rem 0 0.8rem 0;
   background: linear-gradient(to right, $mainBlue 50%, $mainYellow 50%) top;
   background-repeat: no-repeat;
   background-size: 100% 0.5rem;
+  text-align: center;
 
   &__name {
     font-size: 1.5rem;
@@ -38,6 +35,10 @@
   @mixin atMedium {
     font-size: 1.2rem;
   }
+}
+
+.footer__sns-logos {
+  vertical-align: middle;
 }
 
 .footer__contact {

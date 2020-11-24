@@ -1,11 +1,11 @@
 .sns-logos {
-  display: flex;
+  display: inline-block;
 }
 
 .sns-logos__logo {
-  padding: 0.2rem;
   width: 24px;
   height: 24px;
+  vertical-align: middle;
 
   &_facebook:hover {
     fill: blue;
