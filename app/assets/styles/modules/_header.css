@@ -62,11 +62,7 @@
 
 .header__nav {
   width: 100%;
-  display: none;
-
-  @mixin atSmall {
-    display: flex;
-  }
+  display: flex;
 }
 
 .header__nav_element {
