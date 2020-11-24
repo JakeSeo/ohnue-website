@@ -7,6 +7,7 @@
 }
 
 .header__wrapper {
+  position: relative;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -19,9 +20,9 @@
 }
 
 .header__sns_logos {
-  align-self: flex-end;
   position: absolute;
-  top: 0.5rem;
+  top: 0;
+  right: 0.5rem;
 }
 
 .header__logo {

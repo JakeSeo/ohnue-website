@@ -3,7 +3,7 @@
 @import "base/_global";
 @import "base/_variables";
 @import "base/_mixins";
-@import "modules/_header";
 @import "modules/_sns-logos";
+@import "modules/_header";
 @import "modules/_main-body";
 @import "modules/_footer";
